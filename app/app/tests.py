@@ -5,8 +5,10 @@ from django.test import SimpleTestCase
 
 from app.calc import add
 
+
 class CalcTests(SimpleTestCase):
     """Test the calc module"""
+
     def test_add_numbers(self):
         """Test the addition of two numbers"""
         res = add(5, 6)
